@@ -1,0 +1,28 @@
+<div class="header">
+  <h1>Rock Scissors Paper</h1>
+  <h2>Poor taste deluxe edition&trade;</h2>
+  <hr>
+  <a href="/roll/" class="throb">Throw!</a>
+</div>
+<hr>
+<div class="throw">
+  <h1 class="result"><%= @result2 %></h1>
+</div>
+<div class="grid">
+  <div class="throw">
+    <div class="card left">
+      <img src="<%= @roll1_graphic %>">
+    </div>
+    <div class="player">
+      <%= @roll_1 %>
+    </div>
+  </div>
+  <div class="throw">
+    <div class="card right">
+      <img src="<%= @roll2_graphic %>">
+    </div>
+    <div class="player">
+      <%= @roll_2 %>
+    </div>
+  </div>
+</div>
